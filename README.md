@@ -1,4 +1,5 @@
 # Terraform EKS Cluster
+![Terraform CI](https://github.com/MReshma575/terraform-eks-cluster/actions/workflows/terraform-ci.yml/badge.svg)
 
 Production-style **Amazon EKS** cluster provisioned end-to-end with **Terraform** — VPC networking, managed node groups, IAM Roles for Service Accounts (IRSA), and core cluster add-ons, following the same patterns I use for infrastructure-as-code at work.
 

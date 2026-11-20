@@ -42,3 +42,8 @@ kubectl get nodes
 ## Skills demonstrated
 
 Terraform module composition · Amazon EKS · VPC design · IRSA / IAM least privilege · Kubernetes node-group operations
+
+## Going deeper
+
+- [docs/architecture.md](docs/architecture.md) — topology, node-group strategy, IRSA least-privilege, add-ons, and cost shape
+- [docs/first-workload.md](docs/first-workload.md) — from `terraform apply` to a reachable app: kubeconfig, deploying `workloads/sample-app.yaml`, the IRSA storage check, and clean teardown
